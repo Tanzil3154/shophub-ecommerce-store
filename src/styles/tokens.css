@@ -1,0 +1,33 @@
+/* Design tokens and CSS variables */
+:root {
+  /* Colors */
+  --color-primary: #667eea;
+  --color-primary-2: #764ba2;
+  --gradient-primary: linear-gradient(
+    135deg,
+    var(--color-primary) 0%,
+    var(--color-primary-2) 100%
+  );
+  --color-on-primary: #ffffff;
+  --surface: #ffffff;
+  --bg: #f8f9fa;
+  --text: #2d3436;
+  --muted: #636e72;
+  --danger: #ff4757;
+  --success: #38ef7d;
+
+  /* Semantic / utility */
+  --radius: 12px;
+  --container-max: 1200px;
+  --container-padding: 2rem;
+  --shadow-1: 0 4px 8px rgba(0, 0, 0, 0.08);
+  --shadow-2: 0 10px 30px rgba(0, 0, 0, 0.12);
+
+  /* Primary color in RGB (for shadows/transparency) */
+  --primary-rgb: 102, 126, 234;
+
+  /* Typography */
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
