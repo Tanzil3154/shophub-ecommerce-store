@@ -53,69 +53,6 @@ npm run build
 
 This will create an optimized production build in the `dist` folder.
 
-## 🚀 Deployment to Vercel
-
-### Option 1: Using Vercel CLI
-
-1. Install Vercel CLI globally:
-
-   ```bash
-   npm install -g vercel
-   ```
-
-2. Login to Vercel:
-
-   ```bash
-   vercel login
-   ```
-
-3. Deploy the project:
-
-   ```bash
-   vercel
-   ```
-
-4. For production deployment:
-   ```bash
-   vercel --prod
-   ```
-
-### Option 2: Using Vercel Dashboard
-
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com)
-3. Import your GitHub repository
-4. Vercel will automatically detect it's a Vite project
-5. Click "Deploy"
-
-## 📁 Project Structure
-
-```
-ecommerce-store/
-├── src/
-│   ├── components/         # React components
-│   │   ├── Header.jsx
-│   │   ├── ProductCard.jsx
-│   │   ├── ProductList.jsx
-│   │   └── Cart.jsx
-│   ├── pages/             # Page components
-│   │   ├── Home.jsx
-│   │   ├── Products.jsx
-│   │   └── Checkout.jsx
-│   ├── store/             # Redux store
-│   │   ├── store.js
-│   │   └── slices/
-│   │       ├── productsSlice.js
-│   │       ├── cartSlice.js
-│   │       └── userSlice.js
-│   ├── App.jsx            # Main App component
-│   ├── main.jsx           # Entry point
-│   └── index.css          # Global styles
-├── public/                # Static assets
-├── vercel.json            # Vercel configuration
-└── package.json           # Dependencies
-```
-
 ## 🎨 Features Overview
 
 ### Product Management
@@ -140,18 +77,4 @@ ecommerce-store/
 - Order summary
 - Order confirmation
 
-## 🌐 Environment Variables
 
-No environment variables are required for this project as it uses mock data.
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to submit a Pull Request.
-
----
-
-Built with ❤️ using React + Vite + Redux
