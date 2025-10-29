@@ -2,6 +2,8 @@
 
 A fully-functional e-commerce website built with React, Vite, Redux Toolkit, and React Router.
 
+Live url: https://shophub-ecommerce-store.vercel.app/
+
 ## 🚀 Features
 
 - **Product Catalog**: Browse through a curated selection of products
